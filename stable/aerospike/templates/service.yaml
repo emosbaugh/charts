@@ -7,7 +7,7 @@ metadata:
     chart: {{ .Chart.Name }}-{{ .Chart.Version | replace "+" "_" }}
     release: {{ .Release.Name }}
     heritage: {{ .Release.Service }}
-    blah: blah
+    blah2: blah2
   annotations:
     # deprecation in 1.10, supported until at least 1.13,  breaks peer-finder/kube-dns if not used
     service.alpha.kubernetes.io/tolerate-unready-endpoints: "true"
